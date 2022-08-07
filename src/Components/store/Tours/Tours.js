@@ -36,7 +36,7 @@ const ToursSlice = createSlice({
         },
         [getData.fulfilled]: (state,action) => {
             state.isLoading = false
-            state.tours = action.payload
+            state.tours = action.payload.record.Tours
         },
         [getData.rejected]: (state,action) => {
             state.isLoading = false
