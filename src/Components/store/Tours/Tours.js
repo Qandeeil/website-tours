@@ -3,7 +3,7 @@ import { createSlice , createAsyncThunk } from "@reduxjs/toolkit";
 export const getData = createAsyncThunk('tours/getData', 
     async (_,thunkAPI) => {
         try {
-            const res = await fetch('http://localhost:3009/Tours')
+            const res = await fetch('https://api.jsonbin.io/v3/b/62efe522a1610e6386f2d6cd')
             const Data = await res.json();
             return Data
         } catch (error) {
@@ -14,7 +14,7 @@ export const getData = createAsyncThunk('tours/getData',
 export const removeData = createAsyncThunk('tours/removeData',
     async (id,thunkAPI) => {
         try {
-            await fetch(`http://localhost:3009/Tours/${id}` , {
+            await fetch(`https://api.jsonbin.io/v3/b/62efe522a1610e6386f2d6cd/${id}` , {
                 method: "DELETE",
                 headers: {
                     'Content-type': 'application/json; charset=UTF-8'
