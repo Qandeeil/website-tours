@@ -1,0 +1,196 @@
+body {
+  background-color: #c7cbd1; }
+
+.OurTours {
+  width: 50%;
+  margin: 6rem auto; }
+  .OurTours .header {
+    text-align: center; }
+    .OurTours .header h1 {
+      font-size: 3.5rem;
+      margin-bottom: .4rem; }
+    .OurTours .header span {
+      display: block;
+      border-bottom: 5px solid #69D9E9;
+      width: 10%;
+      margin: auto;
+      border-radius: 15px; }
+  .OurTours .content {
+    margin-top: 4rem;
+    border-radius: 10px; }
+    .OurTours .content .element {
+      margin-bottom: 3rem;
+      background-color: #e6e3e6;
+      border-radius: 10px; }
+      .OurTours .content .element .image {
+        height: 50vh; }
+        .OurTours .content .element .image img {
+          width: 100%;
+          height: 100%;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px; }
+      .OurTours .content .element .text {
+        width: 85%;
+        margin: 1rem auto; }
+        .OurTours .content .element .text .title {
+          display: inline-block;
+          font-weight: bold;
+          font-size: 1.6rem;
+          width: 90%;
+          margin-top: 1.5rem; }
+        .OurTours .content .element .text .salary {
+          font-weight: bold;
+          color: #037b8d;
+          font-size: 1.6rem;
+          margin-top: 1.5rem;
+          float: right; }
+        .OurTours .content .element .text .readMore .desc {
+          font-size: 1.3rem;
+          opacity: .8;
+          width: 100%;
+          display: inline-block; }
+        .OurTours .content .element .text .readMore span {
+          display: inline-block;
+          margin-left: .2rem;
+          font-weight: bold;
+          font-size: 16px;
+          color: red;
+          cursor: pointer; }
+        .OurTours .content .element .text button {
+          margin: 1.7rem 0;
+          margin-left: 50%;
+          transform: translate(-50%);
+          width: 15rem;
+          height: 2.5rem;
+          color: red;
+          border: 2px red solid;
+          background-color: transparent;
+          font-weight: bold;
+          font-size: 1.1rem;
+          border-radius: 10px;
+          margin-bottom: 1.4rem;
+          cursor: pointer;
+          transition: .4s; }
+          .OurTours .content .element .text button:hover {
+            background-color: red;
+            color: #fff; }
+    .OurTours .content .refresh {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+      width: 8rem;
+      height: 3rem;
+      line-height: 2.5rem;
+      background-color: transparent;
+      border: 3px #037b8d solid;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      cursor: pointer;
+      color: #037b8d;
+      transition: .3s; }
+      .OurTours .content .refresh:hover {
+        background-color: #037b8d;
+        color: #c7cbd1; }
+
+@media (max-width: 1555px) {
+  .OurTours {
+    width: 40%; } }
+
+@media (max-width: 877px) {
+  .OurTours {
+    width: 60%; } }
+
+@media (max-width: 685px) {
+  .OurTours {
+    margin: 4rem auto; }
+    .OurTours .header {
+      text-align: center; }
+      .OurTours .header h1 {
+        font-size: 3.2rem; }
+    .OurTours .content {
+      margin-top: 1rem; }
+      .OurTours .content .element .text {
+        width: 95%; }
+        .OurTours .content .element .text .title {
+          font-size: 1.4rem;
+          width: 55%;
+          margin-top: 1.5rem; }
+        .OurTours .content .element .text .salary {
+          font-size: 1.4rem;
+          float: right;
+          margin-top: 1.5rem; }
+        .OurTours .content .element .text .readMore .desc {
+          font-size: 1.1rem; }
+        .OurTours .content .element .text .readMore span {
+          margin-left: .1rem;
+          font-size: 13px; }
+        .OurTours .content .element .text button {
+          margin: .2rem 0;
+          margin-left: 50%;
+          transform: translate(-50%);
+          width: 12rem;
+          font-size: 1rem;
+          margin-bottom: 1rem; } }
+
+@media (max-width: 391px) {
+  .OurTours {
+    width: 100%; }
+    .OurTours .header h1 {
+      font-size: 3rem; }
+    .OurTours .content {
+      margin-top: 1rem; }
+      .OurTours .content .element .image {
+        height: 26vh; }
+      .OurTours .content .element .text {
+        width: 95%;
+        margin: 0 auto; }
+        .OurTours .content .element .text .title {
+          font-size: 1.2rem;
+          width: 80%; }
+        .OurTours .content .element .text .salary {
+          font-size: 1.2rem; }
+        .OurTours .content .element .text .readMore .desc {
+          font-size: .9rem;
+          opacity: .8; }
+        .OurTours .content .element .text .readMore span {
+          font-size: 12px; }
+        .OurTours .content .element .text button {
+          margin: .4rem 0;
+          margin-left: 50%;
+          transform: translate(-50%);
+          width: 10rem;
+          height: 2rem;
+          border: 2px red solid;
+          font-size: .8rem;
+          margin-bottom: 1.4rem; } }
+
+@media (max-height: 914px) {
+  .OurTours .header h1 {
+    font-size: 3rem; }
+  .OurTours .content {
+    margin-top: 1rem; }
+    .OurTours .content .element .image {
+      height: 26vh; }
+    .OurTours .content .element .text {
+      width: 95%;
+      margin: 0 auto; }
+      .OurTours .content .element .text .title {
+        font-size: 1.2rem;
+        width: 80%; }
+      .OurTours .content .element .text .salary {
+        font-size: 1.2rem; }
+      .OurTours .content .element .text .readMore .desc {
+        font-size: .9rem;
+        opacity: .8; }
+      .OurTours .content .element .text .readMore span {
+        font-size: 12px; }
+      .OurTours .content .element .text button {
+        margin: .4rem 0;
+        margin-left: 50%;
+        transform: translate(-50%);
+        width: 10rem;
+        height: 2rem;
+        border: 2px red solid;
+        font-size: .8rem;
+        margin-bottom: 1.4rem; } }

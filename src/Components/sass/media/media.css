@@ -1,0 +1,137 @@
+@media (max-width: 1555px) {
+  .OurTours {
+    width: 40%;
+  }
+}
+
+@media (max-width: 877px) {
+  .OurTours {
+    width: 60%;
+  }
+}
+
+@media (max-width: 685px) {
+  .OurTours {
+    margin: 4rem auto;
+  }
+  .OurTours .header {
+    text-align: center;
+  }
+  .OurTours .header h1 {
+    font-size: 3.2rem;
+  }
+  .OurTours .content {
+    margin-top: 1rem;
+  }
+  .OurTours .content .element .text {
+    width: 95%;
+  }
+  .OurTours .content .element .text .title {
+    font-size: 1.4rem;
+    width: 55%;
+    margin-top: 1.5rem;
+  }
+  .OurTours .content .element .text .salary {
+    font-size: 1.4rem;
+    float: right;
+    margin-top: 1.5rem;
+  }
+  .OurTours .content .element .text .readMore .desc {
+    font-size: 1.1rem;
+  }
+  .OurTours .content .element .text .readMore span {
+    margin-left: .1rem;
+    font-size: 13px;
+  }
+  .OurTours .content .element .text button {
+    margin: .2rem 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 12rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 391px) {
+  .OurTours {
+    width: 100%;
+  }
+  .OurTours .header h1 {
+    font-size: 3rem;
+  }
+  .OurTours .content {
+    margin-top: 1rem;
+  }
+  .OurTours .content .element .image {
+    height: 26vh;
+  }
+  .OurTours .content .element .text {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .OurTours .content .element .text .title {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  .OurTours .content .element .text .salary {
+    font-size: 1.2rem;
+  }
+  .OurTours .content .element .text .readMore .desc {
+    font-size: .9rem;
+    opacity: .8;
+  }
+  .OurTours .content .element .text .readMore span {
+    font-size: 12px;
+  }
+  .OurTours .content .element .text button {
+    margin: .4rem 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 10rem;
+    height: 2rem;
+    border: 2px red solid;
+    font-size: .8rem;
+    margin-bottom: 1.4rem;
+  }
+}
+
+@media (max-height: 914px) {
+  .OurTours .header h1 {
+    font-size: 3rem;
+  }
+  .OurTours .content {
+    margin-top: 1rem;
+  }
+  .OurTours .content .element .image {
+    height: 26vh;
+  }
+  .OurTours .content .element .text {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .OurTours .content .element .text .title {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+  .OurTours .content .element .text .salary {
+    font-size: 1.2rem;
+  }
+  .OurTours .content .element .text .readMore .desc {
+    font-size: .9rem;
+    opacity: .8;
+  }
+  .OurTours .content .element .text .readMore span {
+    font-size: 12px;
+  }
+  .OurTours .content .element .text button {
+    margin: .4rem 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+    width: 10rem;
+    height: 2rem;
+    border: 2px red solid;
+    font-size: .8rem;
+    margin-bottom: 1.4rem;
+  }
+}
